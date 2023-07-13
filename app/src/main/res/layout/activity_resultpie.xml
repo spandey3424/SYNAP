@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Your Score Is :"
+        android:id="@+id/sc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:layout_alignBaseline="@+id/sc"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text=" "
+            android:id="@+id/scoredisp"/>
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Percentage :" >
+
+        </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:text="(Percentage of Having Disability)" />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/ext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Exit"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

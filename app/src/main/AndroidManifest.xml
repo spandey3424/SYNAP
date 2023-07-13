@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.disability.synap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ImagesActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Register" />
+        <activity
+            android:name=".SpalshActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Start"
+            android:label="Disability Test" />
+        <activity
+            android:name=".Schemes"
+            android:label="Select Schemes" />
+        <activity
+            android:name=".Records"
+            android:label="Records" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile" />
+        <activity
+            android:name=".Main3Activity"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Upload"
+            android:label="Upload Documents" />
+        <activity
+            android:name=".DisCard"
+            android:label="Disability Card Registration" />
+        <activity android:name=".Jobs" />
+        <activity android:name=".Questions" />
+        <activity android:name=".Resultpie" />
+        <activity android:name=".Questions1" />
+        <activity android:name=".Question2" />
+        <activity android:name=".Question3" />
+        <activity android:name=".Question4" />
+        <activity android:name=".Question5" />
+        <activity android:name=".Question6" />
+        <activity android:name=".Question7" />
+        <activity android:name=".Question8" />
+        <activity android:name=".Question9" />
+        <activity android:name=".Question10" />
+        <activity android:name=".Question11" />
+        <activity
+            android:name=".DisplayProf"
+            android:label="Profile" />
+        <activity android:name=".otpverify" />
+        <activity
+            android:name=".Track"
+            android:label="Track Application" />
+        <activity
+            android:name=".CMO"
+            android:label="Medical Authority" />
+        <activity
+            android:name=".School"
+            android:label="Schools" />
+        <activity
+            android:name=".ApplySchemes"
+            android:label="Apply Scheme" />
+        <activity
+            android:name=".Complain"
+            android:label="Complaint Box" />
+        <activity
+            android:name=".Chat"
+            android:label="Chat Box" />
+        <activity
+            android:name=".job1"
+            android:label="Jobs" />
+        <activity
+            android:name=".job2"
+            android:label="Jobs" />
+        <activity
+            android:name=".job3"
+            android:label="Jobs" />
+        <activity
+            android:name=".job5"
+            android:label="Jobs" />
+        <activity
+            android:name=".job4"
+            android:label="Jobs" />
+    </application>
+
+</manifest>

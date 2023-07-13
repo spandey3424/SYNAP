@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Answer The Questions Below :"
+        android:layout_margin="15dp"/>
+
+
+    <TextView
+        android:id="@+id/ques4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:textSize="15sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/radiogrp1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  Yes  "
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:id="@+id/yes"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Not  Sure  "
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:id="@+id/unsure"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  No  "
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:id="@+id/no"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nxt4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:visibility="invisible"
+        android:text="  Next  "
+        android:textColor="#fff"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/msg"/>
+
+    <Button
+        android:id="@+id/endtest4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="End  Test"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

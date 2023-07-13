@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyblue"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ed1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="15dp"
+                    android:hint=" Adhaar Card Number "
+                    android:maxLines="1"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/adhaar"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/ic_linked_camera_black_24dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ed2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="15dp"
+                    android:hint=" Pan Card Number"
+                    android:maxLines="1"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/pan"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:background="@drawable/ic_linked_camera_black_24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ed3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="15dp"
+                    android:hint=" Voter Id Card Number"
+                    android:maxLines="1"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/voter"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/ic_linked_camera_black_24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ed4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="15dp"
+                    android:hint=" Driving License Number"
+                    android:maxLines="1"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/driving"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="83dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/ic_linked_camera_black_24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ed5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="15dp"
+                    android:hint="Any Other Document (Number)"
+                    android:maxLines="2"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/extra"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="117dp"
+                    android:background="@drawable/ic_linked_camera_black_24dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="(Click on camera icon to upload images) "
+                android:textColor="#3944bc"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/uploadbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative"
+                android:layout_margin="50dp"
+                android:background="@drawable/custom_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Upload"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/viewbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/custom_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="View"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

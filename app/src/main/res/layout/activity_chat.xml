@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Write Your Message Below :"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="User"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Type here.."
+        android:id="@+id/send"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sndmssg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/custom_button"
+            android:text="send"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="right"
+        android:text="Doctor"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:textAlignment="textEnd"
+        android:hint="messsage will appear here"
+        android:id="@+id/recieve"/>
+
+
+    <Button
+        android:id="@+id/exitchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/custom_button"
+        android:text="exit"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "813842402046",
+    "firebase_url": "https://jai-jawan-jai-kisan-77774.firebaseio.com",
+    "project_id": "jai-jawan-jai-kisan-77774",
+    "storage_bucket": "jai-jawan-jai-kisan-77774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813842402046:android:9f9ae3c4f52016c9",
+        "android_client_info": {
+          "package_name": "com.disability.synap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813842402046-sjalqg9svorri21imo5ninad5hqmvams.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuvP6RAj1BLxa1iUTvfGKNvEz05_8Zi6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

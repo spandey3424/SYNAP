@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyblue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Schemes for Disabled :"
+                android:textColorHint="#3944bc"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="1.  Scheme for Setting up of State Spinal Injury Centre"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="2.  Scheme of Establishment of a College for Deaf"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/textv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="3.  National Fund for PwDS"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="4.  Compendium of Scheme"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="5.  Budgetary Support to National Trust"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="6.  Scheme for Implementation of Rights of Persons with Disabilities Act,2016 (SIPDA)"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="7.   Assistance to Disabled Persons for Purchase / Fitting of Aids and Appliances (ADIP)"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="8.  Deendayal Disabled Rehabilitation Scheme (DDRS)"
+                android:inputType="text"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="9.   District Disability Rehabilitation Centres (DDRC)"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="10.  Corporate Social Responsibility (CSR) Projects"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="11.  Scheme of Financial Assistance for Skill Training of PwDs"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="12.  Research on Disability Related Technology Products and Issues"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="13.   Indian Sign Language Research and Training Centre (ISLRTC)"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

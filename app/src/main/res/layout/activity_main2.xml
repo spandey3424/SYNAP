@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyblue"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="15dp"
+                android:hint=" First Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:id="@+id/nam"
+                android:textSize="20sp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="15dp"
+                android:hint=" Middle Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="15dp"
+                android:hint=" Last Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="15dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Gender :"
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:id="@+id/gen"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Female"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp"
+                    android:layout_margin="10dp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp"
+                    android:layout_margin="10dp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp"
+                    android:layout_margin="10dp"/>
+
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawableStart="@drawable/ic_dialpad_black_24dp"
+                    android:drawablePadding="15dp"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="20sp" />
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                    android:drawablePadding="15dp"
+                    android:hint="Passsword"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/password"
+                    android:layout_alignEnd="@+id/password"
+                    android:layout_gravity="right"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:text="SHOW"
+                    android:textColor="#3944bc" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:id="@+id/newreg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relative"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_button"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="register"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,348 @@
+<resources>
+    <string name="toast_message">"1.   Enter your name for the test.
+
+ 2.   Enter your valid mail address.
+        eg:   abc@xyz.com
+
+ 3.   Now set your password for
+        security purpose.
+
+              Enjoy the app! ☺</string>
+    <string name="app_name">SYNAP</string>
+    <string name="title_activity_main3">EXPLORE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="state_names">
+
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh </item>
+        <item>Assam </item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Lakshadweep</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Puducherry (Pondicherry)</item>
+
+
+    </string-array>
+    <string-array name="blood_grp">
+
+        <item> A+ </item>
+        <item> B+ </item>
+        <item> A- </item>
+        <item> B- </item>
+        <item> AB+ </item>
+        <item> AB- </item>
+        <item> O+ </item>
+        <item> O -</item>
+    </string-array>
+
+    <string-array name="disability_names">
+
+        <item>Blindness</item>
+        <item>Leprosy</item>
+        <item>Hearing Impairment(Deaf)</item>
+        <item>Autism Spectrum Disorder</item>
+        <item>Cerebral Palsy</item>
+        <item>Multiple Sclerosis</item>
+        <item>Low Vision</item>
+        <item>Thalassemia</item>
+        <item>Hemophilia</item>
+        <item>Sickle Cell Disease</item>
+        <item>Parkinsons Disease</item>
+        <item>Intellectual Disability</item>
+
+    </string-array>
+
+    <string-array name="Occupation">
+
+        <item>Govt. Job</item>
+        <item>Professional/Technical</item>
+        <item>Agriculture</item>
+        <item>Service and Shops</item>
+        <item>Clerks</item>
+        <item>Craft/Trade Workers</item>
+        <item>Daily Wages Workers</item>
+        <item>Plant/Factory</item>
+
+    </string-array>
+
+    <string-array name="Body">
+
+        <item>Chest</item>
+        <item>Ears</item>
+        <item>Head</item>
+        <item>Nose</item>
+        <item>Shoulder</item>
+        <item>Throat</item>
+        <item>Right Eye</item>
+        <item>Left Eye</item>
+        <item>Right Hand</item>
+        <item>Left Hand</item>
+        <item>Right Leg</item>
+        <item>Left Leg</item>
+        <item>Mouth</item>
+        <item>Stomach</item>
+
+    </string-array>
+    <string-array name="DistrictofArunachal">
+
+        <item>Anjaw</item>
+        <item>Changlang</item>
+        <item>Dibang Valley</item>
+        <item>East kameng</item>
+        <item>East Siang</item>
+        <item>Kamle</item>
+        <item>Kra Daadi</item>
+        <item>Kurung Kumey</item>
+        <item>Lohit</item>
+        <item>Longding</item>
+        <item>Lower dibang valley</item>
+        <item>Lower siang</item>
+        <item>Lower subansiri</item>
+        <item>Namsai</item>
+        <item>Papum pare</item>
+        <item>Siang</item>
+        <item>Tawang</item>
+        <item>Tirap</item>
+        <item>Upper diabng valley</item>
+        <item>Upper siang</item>
+        <item>Upper subansiri</item>
+        <item>West kameng</item>
+        <item>West siang</item>
+    </string-array>
+
+    <string-array name="DistrictofAndra">
+
+        <item>Anantpur</item>
+        <item>Chittoor</item>
+        <item>East Godawari</item>
+        <item>Guntur</item>
+        <item>Kadapa</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Nellore</item>
+        <item>Prakasam</item>
+        <item>Spsr nellore</item>
+        <item>Srikakulam</item>
+        <item>Vishakapatnam</item>
+        <item>Viziannagarram</item>
+        <item>Warangal</item>
+        <item>West godavari</item>
+
+    </string-array>
+
+    <string-array name="DistrictofAssam">
+
+        <item>Baksa</item>
+        <item>Barpeta</item>
+        <item>Bongaigaon</item>
+        <item>Cachar</item>
+        <item>Chirang</item>
+        <item>Darrang</item>
+        <item>Dhemaji</item>
+        <item>Dhubhri</item>
+        <item>Dibrugarh</item>
+        <item>Goalpara</item>
+        <item>Golaghat</item>
+        <item>Hailakandi</item>
+        <item>Jorhat</item>
+        <item>Kamrup</item>
+        <item>Kamrup metro</item>
+        <item>Karbi anglong</item>
+        <item>Karimganj</item>
+        <item>Kokrajhar</item>
+        <item>Lakhimpur</item>
+        <item>Marigaon</item>
+        <item>Nagaon</item>
+        <item>Nalbari</item>
+        <item>North cachar hills</item>v
+        <item>Sivasagar</item>
+        <item>Sonitpur</item>
+        <item>Tinsukia</item>
+        <item>Udalguri</item>
+
+    </string-array>
+
+    <string-array name="DistrictofBihar">
+        <item>Araria</item>
+        <item>Arwal</item>
+        <item>Aurangabad</item>
+        <item> Banka</item>
+        <item>Begusarai</item>
+        <item>Bhagalpur</item>
+        <item>Bhojpur</item>
+        <item>Buxar</item>
+        <item>Darbhanga</item>
+        <item>Gaya</item>
+        <item>Ggopalganj</item>
+        <item>Jamui</item>
+        <item>Jehanabad</item>
+        <item>Kaimur(bhabua)</item>
+        <item>Katihar</item>
+        <item>Khagaria</item>
+        <item>Kishanganj</item>
+        <item>Lakhisarai</item>
+        <item>Madhepura</item>
+        <item>Madhubani</item>
+        <item>Munger</item>
+        <item>Muzaffarnagar</item>
+        <item>Nalanda</item>
+        <item>Nawada</item>
+        <item>Pashchim champaran</item>
+        <item>Patna</item>
+        <item>Purbi champaran</item>
+        <item>Purnia</item>
+        <item>Rohtas</item>
+        <item>Saharsa</item>
+        <item>Samastipur</item>
+        <item>Saran</item>
+        <item>Sheikhpura</item>
+        <item>Sheohar</item>
+        <item>Sitamarhi</item>
+        <item>Siwan</item>
+        <item>Supaul</item>
+        <item>Vaishali</item>
+
+    </string-array>
+
+    <string-array name="DistrictofChandigarh">
+        <item>Chandigarh</item>
+    </string-array>
+
+    <string-array name="DistrictofChhattisgarh">
+
+        <item>Balod</item>
+        <item>Balod bazar</item>
+        <item>Balrampur</item>
+        <item>Bastar</item>
+        <item>Bemetara</item>
+        <item>Bijapur</item>
+        <item>Bilaspur</item>
+        <item>Dantewada</item>
+        <item>Dhamtri</item>
+        <item>Durg</item>
+        <item>Gariyaband</item>
+        <item>Janjgir-Champa</item>
+        <item>Jashpur</item>
+        <item>Kabirdham</item>
+        <item>Kanker</item>
+        <item>Kondagaon</item>
+        <item>Korba</item>
+        <item>Korea</item>
+        <item>Mahasamund</item>
+        <item>Mungeli</item>
+        <item>Narayanpur</item>
+        <item>Raigarh</item>
+        <item>Raipur</item>
+        <item>Rajnandgaon</item>
+        <item>Sukma</item>
+        <item>Surajpur</item>
+        <item>Surguja</item>
+
+
+    </string-array>
+
+    <string-array name="DistrictofGujrat">
+
+        <item>Ahmedabad</item>
+        <item>Amreli</item>
+        <item>Anand</item>
+        <item>Aravalli</item>
+        <item>Banaskantha</item>
+        <item>Bharuch</item>
+        <item>Bhavnagar</item>
+        <item>Botad</item>
+        <item>Chhotaudapur</item>
+        <item>Dahod</item>
+        <item>Dang</item>
+        <item>Devbhumi Dwarka</item>
+        <item>Gandhinagar</item>
+        <item>Girsomnath</item>
+        <item>Jamnagar</item>
+        <item>Junagadh</item>
+        <item>Kheda</item>
+        <item>Kutch</item>
+        <item>Mahesana</item>
+        <item>Mahisagar</item>
+        <item>Morbi</item>
+        <item>Narmada</item>
+        <item>Navasari</item>
+        <item>Panchmahal</item>
+        <item>Patan</item>
+        <item>Porbandar</item>
+        <item>Rajkot</item>
+        <item>Sabarkantha</item>
+        <item>Surat</item>
+        <item>Surendranagar</item>
+        <item>Tapi</item>
+        <item>Vadodara</item>
+        <item>Valsad</item>
+
+    </string-array>
+    <string-array name="DistrictofGoa">
+
+        <item>North Goa</item>
+        <item>South Goa</item>
+
+    </string-array>
+
+    <string-array name="DistrictofDelhi">
+
+        <item>Central</item>
+        <item>East</item>
+        <item>New Delhi</item>
+        <item>North</item>
+        <item>North East</item>
+        <item>North West</item>
+        <item>Shahdra</item>
+        <item>South</item>
+        <item>South East</item>
+        <item>South West</item>
+        <item>West</item>
+
+    </string-array>
+
+    <string-array name="DistrictofDadar">
+        <item>Dadar and Nagar Haveli</item>
+    </string-array>
+
+    <string-array name="DistrictofDaman">
+        <item>Daman And Diu</item>
+    </string-array>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

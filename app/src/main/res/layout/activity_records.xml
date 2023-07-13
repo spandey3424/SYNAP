@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyblue"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="  Upload Previous Records : "
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Description "
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Consulting Hospital"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Prescription Issue Date"
+                android:inputType="date"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp"
+                android:id="@+id/prevschemes"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="15dp"
+                    android:hint=" Any Other Medical Condition"
+                    android:inputType="textPersonName"
+                    android:textColor="#3944bc"
+                    android:textColorHint="#3944bc"
+                    android:textSize="20sp"
+                    android:id="@+id/oth"/>
+
+                <Button
+                    android:id="@+id/driving"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/oth"
+                    android:layout_alignEnd="@+id/oth"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="-10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/ic_linked_camera_black_24dp"
+                    android:textColor="#3944bc" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="  (Click on camera to upload required prescription/images) "
+                android:textColor="#3944bc"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/Updaterecord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative"
+                android:layout_margin="50dp"
+                android:background="@drawable/custom_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Update"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

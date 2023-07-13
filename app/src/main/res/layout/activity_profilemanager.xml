@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skyblue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_perm_identity_black_24dp"
+            android:id="@+id/dp"/>
+
+        <Button
+            android:id="@+id/cam"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/dp"
+            android:layout_alignEnd="@+id/dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_linked_camera_black_24dp"
+            android:onClick="setCam"/>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" First Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/middlename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Middle Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Last Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="State :"
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:id="@+id/state"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:id="@+id/statespinner"
+                android:background="@color/white">
+
+            </Spinner>
+
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Personal Information :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Blood Group :"
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:id="@+id/grp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:id="@+id/bloodspinner"
+                android:background="@color/white">
+
+            </Spinner>
+
+
+            <EditText
+                android:id="@+id/marital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Marital Status"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Occupation"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/qualifaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Qualification"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:id="@+id/updatebutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relative"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_button"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="Update"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

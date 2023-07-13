@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyblue"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="  1. Personal Details : "
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" First Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Middle Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Last Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Father's Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Mother's Name"
+                android:inputType="textPersonName"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint=" Date of Birth"
+                android:inputType="date"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="  Age"
+                android:inputType="text"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/gen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Gender :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="Female"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Male"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Others"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="  Mark of Identification"
+                android:inputType="text"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Category :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="General"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="OBC*"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="SC*"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="ST*"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/grp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Blood Group :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/bloodspinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@color/white">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/marital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Marital Status"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/qualifaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Qualification"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2.  Address Details : "
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="State :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/statespinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@color/white">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="District"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/proof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Document for Adress Proof :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Driving Licence"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Ration Card"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Voter Id"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Other( Domicile Certificate )"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="3.  Disability Details : "
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Have disability Certificate :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="   Yes  "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="   No  "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="(If yes then fill details below and attach certificate)"
+                android:textColor="#3944bc"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/Sr.No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Sr./Reg No.of Certificate"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/percent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Disability Percentage(%)"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Details of Issuing Authority :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="Chief Medical Office "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Medical Authority "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+
+            </RadioGroup>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/otherdoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Select A Disability :"
+                    android:textColor="#3944bc"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/disabilityspinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/otherdoc"
+                    android:layout_gravity="right"
+                    android:layout_margin="15dp"
+                    android:background="@color/white" />
+
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/pension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Pension Card Number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/treating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Hospital Treating Disability"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/disablearea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Disability Area :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/bodyparts"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@color/white">
+
+            </Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Disability Due to :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="Accident "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Congenital "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Hereditary "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4.  Employement Details : "
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Employed :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="   Yes  "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="   No*  "
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/unemployed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Unemployed Since"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/oc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Occupation :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/occupation"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:background="@color/white">
+
+            </Spinner>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="BPL/APL :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="N/A"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="APL"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="BPL"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Antodya"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Family Income (Annual)"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="5.  Identity Details : "
+                android:textColor="#3944bc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+            <TextView
+                android:id="@+id/idproof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Identity Proof :"
+                android:textColor="#3944bc"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Driving Licence"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Ration Card"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Voter Id"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="PAN Card"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Aadhar Card"
+                    android:textColor="#3944bc"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/idno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Identity Proof Number"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/adharno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Aadhaar Card Number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/anyother"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Any Other State/UTs ID"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/anyotherv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="15dp"
+                android:hint="Other State/UTs ID Value"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#3944bc"
+                android:textColorHint="#3944bc"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#3944bc" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:id="@+id/submitbttn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relative"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_button"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="Submit"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
